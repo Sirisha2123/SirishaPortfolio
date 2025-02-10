@@ -95,7 +95,7 @@ function App() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Chiranjeevulu C
+            Sirisha R
           </motion.h1>
           <motion.div 
             className="space-x-6"
@@ -126,7 +126,7 @@ function App() {
               <p className="text-xl mb-8 text-blue-200">Passionate about Building beautiful and functional applications</p>
               <div className="flex justify-center md:justify-start space-x-4">
                 <motion.a 
-                  href="https://github.com/Chiru2123" 
+                  href="https://github.com/Sirisha2123" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -134,7 +134,7 @@ function App() {
                   <Github className="w-6 h-6" />
                 </motion.a>
                 <motion.a 
-                  href="https://www.linkedin.com/in/chiranjeevulu-chenneboyina-748855338/" 
+                  href="https://www.linkedin.com/in/r-sirisha/" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -142,7 +142,7 @@ function App() {
                   <Linkedin className="w-6 h-6" />
                 </motion.a>
                 <motion.a 
-                  href="mailto:chyrus2123@gmail.com" 
+                  href="mailto:ravillasirisha21@gmail.com" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -199,7 +199,7 @@ function App() {
               transition={{ duration: 0.6 }}
             >
               <p className="text-gray-300 leading-relaxed text-lg">
-              I am a recent graduate in Electrical and Electronics Engineering with a CGPA of 7.29 from Siddharth Institute of Engineering and Technology, Puttur. With a strong passion for software development, I have honed my skills in full-stack web development, building modern and scalable applications.
+              I am a recent graduate in Computer Science and Engineering with a CGPA of 8.24 from Siddharth Institute of Engineering and Technology, Puttur. With a strong passion for software development, I have honed my skills in full-stack web development, building modern and scalable applications.
               </p>
               <p className="text-gray-300 leading-relaxed text-lg mt-4">
               I enjoy solving complex problems by creating intuitive and efficient solutions. My expertise spans both frontend and backend development, ensuring seamless user experiences and robust architectures. Additionally, I actively explore new technologies and contribute to open-source projects to stay updated with industry trends.
@@ -400,7 +400,7 @@ function App() {
             <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Chiranjeevulu. All rights reserved.</p>
             <div className="flex space-x-4">
               <motion.a 
-                href="https://github.com/Chiru2123" 
+                href="https://github.com/Sirisha2123" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -408,7 +408,7 @@ function App() {
                 <Github className="w-5 h-5" />
               </motion.a>
               <motion.a 
-                href="https://www.linkedin.com/in/chiranjeevulu-chenneboyina-748855338/" 
+                href="https://www.linkedin.com/in/r-sirisha/" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -416,7 +416,7 @@ function App() {
                 <Linkedin className="w-5 h-5" />
               </motion.a>
               <motion.a 
-                href="mailto:chyrus2123@gmail.com" 
+                href="mailto:ravillasirisha21@gmail.com" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
