@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import logo from './assets/chiru_1.jpg';
 import face from './assets/Face.jpg';
 import emp from './assets/Employee.jpg';
+import siri from './assets/Siri.jpg';
 
 // Animation variants
 const fadeInUp = {
@@ -158,7 +159,7 @@ function App() {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src={logo}
+                src={siri}
                 alt="Your Profile"
                 className="rounded-full w-48 h-48 sm:w-64 sm:h-64 object-cover border-4 border-blue-500 shadow-lg shadow-blue-500/50"
               />
@@ -186,7 +187,7 @@ function App() {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src={logo}
+                src={siri}
                 alt="Working"
                 className="rounded-lg shadow-lg w-full h-auto object-cover shadow-blue-500/50"
               />
@@ -397,7 +398,7 @@ function App() {
         <div className="absolute inset-0 tech-gradient opacity-10"></div>
         <div className="relative max-w-6xl mx-auto px-6">
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Chiranjeevulu. All rights reserved.</p>
+            <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Ravilla. All rights reserved.</p>
             <div className="flex space-x-4">
               <motion.a 
                 href="https://github.com/Sirisha2123" 
