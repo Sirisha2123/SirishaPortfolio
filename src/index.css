@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes matrix-bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.tech-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.1) 0%,
+    rgba(99, 102, 241, 0.1) 25%,
+    rgba(67, 56, 202, 0.1) 50%,
+    rgba(99, 102, 241, 0.1) 75%,
+    rgba(37, 99, 235, 0.1) 100%
+  );
+  background-size: 400% 400%;
+  animation: matrix-bg 15s ease infinite;
+}
+
+.glass-effect {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 4px solid;
+  animation: typing 6s steps(30) infinite, blink 0.75s step-end infinite, dot-blink 1.5s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes dot-blink {
+  0%, 100% {
+    content: "";
+  }
+  33% {
+    content: "";
+  }
+  66% {
+    content: "";
+  }
+  100% {
+    content: "";
+  }
+}
+
+.typing-animation::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  animation: dot-blink 1.5s steps(10) ;
+}
